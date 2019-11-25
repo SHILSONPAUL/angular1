@@ -1,0 +1,19 @@
+<div style="text-align:center">
+  <h1>
+    Welcome to the new{{ title }}!
+  </h1>
+  <img src="https://angular.io/assets/images/logos/angular/angular.svg">
+  <div> Months:</div>
+<div>
+
+<select>
+<option *ngFor="let i of months">{{i}}</option>  
+</select>
+<p *ngIf=isavailable>gvfdjvblbn </p>
+<p *ngIf="a<b"> a is small</p>
+<span *ngIf="isavailable;else condition1">{{a}} is greater</span>
+<ng-template #condition1>{{b}} is greater</ng-template>
+<br>
+<input type="text" [(ngModel)]="name">
+<p>{{name}}</p>
+<button (click) = 'myClickFunction($event)'> Click me...</button><br><br>
