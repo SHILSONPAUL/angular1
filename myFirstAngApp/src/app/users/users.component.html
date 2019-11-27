@@ -1,0 +1,20 @@
+
+<div class="divstyle">
+<h3>Welcome to users</h3><br>
+<button (click) = 'getUsers()' id="btn"> Click me...</button>
+<div class="list" *ngFor="let i of userdata">
+<ul>
+    <li>
+    {{i.name}}
+    </li>
+    <li>
+    {{i.username}}
+    </li>
+    <li>
+    {{i.email}}
+    </li>    
+      
+</ul>
+</div>
+</div>
+

@@ -1,5 +1,6 @@
-.footer-style{
+.footer{
 background-color: rgba(81, 187, 99, 0.603);
-height: 30px;
+height: 20%;
 width: 100%;
+/* margin-top: 20%; */
 }
